@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b18">
+<title>MS HOSTING | Free Cloud Hosting</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Arial,sans-serif;
+  background:#080b18;
+  color:#fff;
+}
+header{
+  padding:20px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #202944;
+}
+.logo{font-size:25px;font-weight:900;color:#8b7cff}
+nav a{
+  color:#ddd;text-decoration:none;
+  margin-left:18px;font-size:14px
+}
+.hero{
+  min-height:530px;
+  padding:100px 20px 70px;
+  text-align:center;
+  background:radial-gradient(ellipse at top,#24205c,#080b18 70%);
+}
+.tag{
+  display:inline-block;
+  border:1px solid #6255db;
+  color:#a99eff;
+  padding:9px 18px;
+  border-radius:30px;
+  font-size:13px;
+}
+h1{
+  font-size:clamp(38px,8vw,65px);
+  margin:28px 0 18px;
+}
+h1 span{color:#8d7cff}
+.hero p{
+  color:#aab1ca;
+  line-height:1.8;
+  max-width:600px;
+  margin:auto;
+}
+.btn{
+  display:inline-block;
+  margin:30px 7px 0;
+  padding:14px 24px;
+  background:#7565f5;
+  border-radius:9px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+.btn.secondary{
+  background:transparent;
+  border:1px solid #555b79;
+}
+section{padding:65px 7%}
+.section-title{text-align:center;margin-bottom:35px}
+.section-title h2{font-size:30px}
+.section-title p{color:#9ba4bd;margin-top:12px}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+.card{
+  background:#11172a;
+  border:1px solid #293451;
+  padding:27px;
+  border-radius:15px;
+  transition:.2s;
+}
+.card:hover{
+  transform:translateY(-5px);
+  border-color:#8373ff;
+}
+.card .icon{font-size:35px}
+.card h3{margin:18px 0 12px}
+.card p{color:#aab1ca;line-height:1.7;font-size:14px}
+.status{
+  display:inline-block;
+  margin-top:18px;
+  color:#a99eff;
+  font-size:12px;
+}
+.about{
+  text-align:center;
+  background:#101629;
+  border-top:1px solid #28314b;
+  border-bottom:1px solid #28314b;
+}
+.about p{
+  color:#aab1ca;
+  line-height:1.8;
+  max-width:650px;
+  margin:18px auto;
+}
+footer{
+  text-align:center;
+  padding:30px;
+  color:#8e98b3;
+  font-size:13px;
+}
+@media(max-width:600px){
+  header{padding:17px 5%}
+  nav a{margin-left:9px;font-size:12px}
+  .hero{padding-top:80px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">MS HOSTING</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="tag">⚡ NEXT GENERATION CLOUD PLATFORM</div>
+
+  <h1>HOST YOUR<br><span>DIGITAL WORLD</span></h1>
+
+  <p>
+    Welcome to MS HOSTING.
+    Your platform for website hosting,
+    Telegram bot management and cloud projects.
+  </p>
+
+  <a href="#services" class="btn">Explore Services</a>
+  <a href="#about" class="btn secondary">Learn More</a>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <h2>Our Hosting Services</h2>
+    <p>Everything you need in one platform.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🌐</div>
+      <h3>Website Hosting</h3>
+      <p>Host HTML, CSS, JavaScript websites and publish your projects online.</p>
+      <span class="status">Coming Soon</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">🤖</div>
+      <h3>Telegram Bot Hosting</h3>
+      <p>Manage Python Telegram bots with start, stop, restart and console logs.</p>
+      <span class="status">Coming Soon</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">📁</div>
+      <h3>File Manager</h3>
+      <p>Manage your project files and organize your hosting resources.</p>
+      <span class="status">Coming Soon</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">🛡️</div>
+      <h3>Admin Panel</h3>
+      <p>Manage users, projects, hosting resources and platform settings.</p>
+      <span class="status">Coming Soon</span>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="section-title">
+    <h2>About MS HOSTING</h2>
+  </div>
+  <p>
+    MS HOSTING is a cloud hosting platform project
+    designed to make website publishing and Telegram
+    bot management easier from mobile devices.
+  </p>
+</section>
+</main>
+
+<footer>
+  © 2026 MS HOSTING. All Rights Reserved.
+  <br><br>
+  Powered by MS Technology
+</footer>
+
+</body>
+</html>
